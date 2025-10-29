@@ -22,11 +22,6 @@
 </a>
 
 
-### 引导
-
-[官网](https://tbed.hellohao.cn) | [文档](https://doc.hellohao.cn) | [演示站](https://pic.hellohao.cn) | [桌面客户端](https://tbed.hellohao.cn/app) | [微信小程序](https://tbed.hellohao.cn/wechat) | [前端源码](https://github.com/Hello-hao/tbed-web)
-
-
 ### 前言
 
 **Hellohao图像托管程序**(图床)这是一个由JAVA语言编写SpringBoot框架开发的开源图像托管程序。具备多对象存储源对接，采用`前后端分离`式设计的一款专门托管图像的程序，支持多种格式的图像 多功能的图床系统。该程序支持除了`web端`之外，同时支持`客户端（win/mac）`,`移动端（小程序）`等常用全平台支持。
@@ -213,21 +208,11 @@
 - Shiro
 
 ### 声明
-Hellohao图像托管已申请[**中国国家版权局计算机软件著作权**](https://register.ccopyright.com.cn/query.html)登记，受法律法规保护。
-> 登记号：2023SR1210640
+Hellohao图像托管已申请[**国家版权局计算机软件著作权**](https://register.ccopyright.com.cn/query.html)登记，受法律法规保护。
 
 本项目遵循[GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/#)开源协议，使用前请悉知。
 如果你想商用或程序定制，请先与我们联系，分享你的利益。
 
 
-### 反馈交流
 
-**如果你遇到BUG欢迎反馈**
-
-- Q群探讨：864800972
-
-### 更多
-
-**如需程序定制或其他业务，请与我们取得联系**
-[Hellohao图像托管官网](http://hellohao.cn)
 
