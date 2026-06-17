@@ -38,7 +38,7 @@ public class S3Imageupload {
             Map<Map<String, String>, File> fileMap, String username, Integer keyID) {
         ReturnImage returnImage = new ReturnImage();
         try {
-            if (null == AS3 || null == AS3) {
+            if (null == AS3 || null == KEY) {
                 logger.error("S3 = 存储源对象为空");
                 returnImage.setCode("500");
                 return returnImage;
