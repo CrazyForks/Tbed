@@ -11,12 +11,12 @@ private static final char[] CODE_SEQ = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
 
 private static final char[] NUMBER_ARRAY = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
-private static Random random = new Random();
+private static final Random RANDOM = new Random();
 
 public static String randomString(int length) {
 StringBuilder sb = new StringBuilder();
 for (int i = 0; i < length; i++) {
-sb.append(CODE_SEQ[random.nextInt(CODE_SEQ.length)]);
+sb.append(CODE_SEQ[RANDOM.nextInt(CODE_SEQ.length)]);
 }
 return sb.toString();
 }
@@ -24,7 +24,7 @@ return sb.toString();
 public static String randomNumberString(int length) {
 StringBuilder sb = new StringBuilder();
 for (int i = 0; i < length; i++) {
-sb.append(NUMBER_ARRAY[random.nextInt(NUMBER_ARRAY.length)]);
+sb.append(NUMBER_ARRAY[RANDOM.nextInt(NUMBER_ARRAY.length)]);
 }
 return sb.toString();
 }
@@ -43,6 +43,6 @@ return new Color(f + random.nextInt(b - f), f + random.nextInt(b - f), f + rando
 }
 
 public static int nextInt(int bound) {
-return random.nextInt(bound);
+return RANDOM.nextInt(bound);
 }
 }
