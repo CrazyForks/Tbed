@@ -1,6 +1,5 @@
 package cn.hellohao.utils;
 
-import cn.hellohao.TbedApplication;
 import cn.hellohao.pojo.Msg;
 import org.apache.commons.lang3.StringUtils;
 
@@ -180,7 +179,6 @@ public class ImgUrlUtil {
         FileInputStream fis = null;
         try {
             if(file.exists() && file.isFile()){
-                String fileName = file.getName();
                 fis = new FileInputStream(file);
                 imgsize=fis.available()/1024;
             }
