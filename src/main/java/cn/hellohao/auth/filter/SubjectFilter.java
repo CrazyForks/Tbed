@@ -35,7 +35,7 @@ public class SubjectFilter extends BasicHttpAuthenticationFilter {
         String serviceName = httpServletRequest.getServletPath();//获取接口
         String Users_Origin = httpServletRequest.getHeader("usersOrigin");
         String token = httpServletRequest.getHeader("Authorization");
-        if(httpServletRequest.getMethod().equals("POST") && !serviceName.contains("/api") && !serviceName.contains("/verifyCode")
+        if("POST".equals(httpServletRequest.getMethod()) && !serviceName.contains("/api") && !serviceName.contains("/verifyCode")
                 && !serviceName.contains("/getClientVersion") && !serviceName.contains("/client")){
             try{
                 if(Users_Origin.compareTo(SecureUtil.md5(WEBHOST))!=0){
